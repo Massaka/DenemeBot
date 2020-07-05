@@ -1,0 +1,25 @@
+const { Telegraf } = require('telegraf')
+
+const bot = new Telegraf("1358695001:AAFFQC-DM8-_TNCaxDt_rTaNxqTZKcyA9s8")
+bot.start((ctx) => ctx.reply('Selamm..Turkish Hava Durumu Botuna hoş geldin.😊İstanbul İzmir Bursa ve Trabzon illerinin hava tahminini bana sorabilirsinn😉'))
+bot.help((ctx) => ctx.reply('Sohbet için "/(Istanbul Ankara Izmır Bingöl ve Trabzon) " komutunu kullan.Bir önerin varsa @Massakaaa @cayapuskuvitlazim  @JohnWickTR1 @ yaz 😉'))
+bot.on('sticker', (ctx) => ctx.reply('👍'))
+
+bot.hears('/Istanbul', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈İstanbul İli Hava Tahmin🌈                   Sıcaklık: 31.5(°C) 🌞 Nem: % 51 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/ıstanbul', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈İstanbul İli Hava Tahmin🌈                   Sıcaklık: 31.5(°C) 🌞 Nem: % 51 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/İstanbul', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈İstanbul İli Hava Tahmin🌈                   Sıcaklık: 31(°C) 🌞 Nem: % 51 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/istanbul', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈İstanbul İli Hava Tahmin🌈                   Sıcaklık: 31(°C) 🌞 Nem: % 51 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/Ankara', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈Ankara İli Hava Tahmin🌈                   Sıcaklık: 32(°C) 🌞 Nem: % 21 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/ankara', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈Ankara İli Hava Tahmin🌈                   Sıcaklık: 32(°C) 🌞 Nem: % 21 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/Izmir', (ctx) => ctx.reply ('⚡️* _ * _ *  _  * _* _ * _ * _ *⚡️🌈    İzmir İli Hava Tahmin🌈                   Sıcaklık: 36(°C) 🌞 Nem: % 39 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/ızmir', (ctx) => ctx.reply ('⚡️* _ * _ *  _  * _* _ * _ * _ *⚡️🌈    İzmir İli Hava Tahmin🌈                   Sıcaklık: 36(°C) 🌞 Nem: % 39 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/İzmir', (ctx) => ctx.reply ('⚡️* _ * _ *  _  * _* _ * _ * _ *⚡️🌈    İzmir İli Hava Tahmin🌈                   Sıcaklık: 36(°C) 🌞 Nem: % 39 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/izmir', (ctx) => ctx.reply ('⚡️* _ * _ *  _  * _* _ * _ * _ *⚡️🌈    İzmir İli Hava Tahmin🌈                   Sıcaklık: 36(°C) 🌞 Nem: % 39 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/Bingöl', (ctx) => ctx.reply ('⚡️* _ * _ *  _  * _* _ * _ * _ *⚡️🌈    Bingöl İli Hava Tahmin🌈                   Sıcaklık: 33(°C) 🌞 Nem: % 24 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/bingöl', (ctx) => ctx.reply ('⚡️* _ * _ *  _  * _* _ * _ * _ *⚡️🌈    Bingöl İli Hava Tahmin🌈                   Sıcaklık: 33(°C) 🌞 Nem: % 24 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/Trabzon', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈Trabzon İli Hava Tahmin🌈                   Sıcaklık: 28(°C) 🌞 Nem: % 74 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/trabzon', (ctx) => ctx.reply ('⚡️ _ * _ * _ *  _  * _* _ * _ * _ *⚡️🌈trabzon İli Hava Tahmin🌈                   Sıcaklık: 87(°C) 🌞 Nem: % 74 🌫 Rüzgar: Yok. Turkish Hava Durumu Aydınlık ☀️ Günler Diler...'))
+bot.hears('/hatırlatma', (ctx) => ctx.reply ('Sıcaklık ve Nem oranları OpenWeather den çekilmektedir. Sıcaklık düşük olsa bile nem yüksek olduğu için hissedilen sıcaklık fazladır. Bu bigiler OpenWeather den alındığı için hata payının olucağı göz ardı edilmemelidir!! '))
+
+bot.launch()
+
